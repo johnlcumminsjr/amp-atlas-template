@@ -1,4 +1,17 @@
-{
-  "Version": "1.0",
-  "Settings": []
-}
+[
+  {
+    "DisplayName": "Additional Arguments",
+    "Category": "Atlas:stadia_controller",
+    "Subcategory": "Server:dns:1",
+    "Description": "Extra command line arguments appended after the standard Atlas startup string.",
+    "Keywords": "custom,args,arguments,startup",
+    "FieldName": "CustomArgs",
+    "InputType": "text",
+    "IsFlagArgument": false,
+    "ParamFieldName": "CustomArgs",
+    "IncludeInCommandLine": true,
+    "DefaultValue": "",
+    "Placeholder": "",
+    "EnumValues": {}
+  }
+]
