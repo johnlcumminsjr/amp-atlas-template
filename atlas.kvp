@@ -3,7 +3,7 @@ App.ApplicationPort1=57560
 App.ApplicationPort2=57561
 App.ApplicationReadyMode=Immediate
 App.BaseDirectory=./atlas/1006030/
-App.CommandLineArgs=Ocean?ServerX=0?ServerY=0?AltSaveDirectoryName=00?MaxPlayers=10?QueryPort={{$ApplicationPort2}}?Port={{$ApplicationPort1}}?SeamlessIP={{$ApplicationIPBinding}} -log -server -NoBattlEye
+App.CommandLineArgs=Ocean?ServerX=0?ServerY=0?AltSaveDirectoryName=00?MaxPlayers=10?QueryPort={{$ApplicationPort2}}?Port={{$ApplicationPort1}}?SeamlessIP={{$ApplicationIPBinding}} -log -server -NoBattlEye {{$FormattedArgs}}
 App.CommandLineParameterDelimiter= 
 App.CommandLineParameterFormat=-{0} "{1}"
 App.DisplayName=Atlas
