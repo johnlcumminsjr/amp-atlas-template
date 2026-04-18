@@ -1,0 +1,53 @@
+{
+  "Meta_DisplayName": "Atlas",
+  "Meta_Description": "Atlas Dedicated Server",
+  "Meta_Author": "JJ",
+  "Meta_URL": "",
+  "_SupportsWindows": true,
+  "_SupportsLinux": true,
+  "App_AdminMethod": "STDIO",
+  "App_HasReadableConsole": true,
+  "App_HasWritableConsole": true,
+  "App_DisplayName": "Atlas",
+  "App_CommandLineArgs": "Ocean?ServerX=0?ServerY=0?AltSaveDirectoryName=00?MaxPlayers=10?QueryPort={{$ApplicationPort2}}?Port={{$ApplicationPort1}}?SeamlessIP={{$ApplicationIPBinding}} -log -server -NoBattlEye",
+  "App_CommandLineParameterFormat": "-{0} \"{1}\"",
+  "App_CommandLineParameterDelimiter": " ",
+  "App_RapidStartup": false,
+  "App_ApplicationReadyMode": "Immediate",
+  "App_ExitMethod": "String",
+  "App_ExitString": "doexit",
+  "Console_ThrowawayMessageRegex": "",
+  "Console_AppReadyRegex": "",
+  "Console_UserJoinRegex": "",
+  "Console_UserLeaveRegex": "",
+  "Console_UserChatRegex": "",
+  "_PortMappings": [
+    {
+      "Protocol": "UDP",
+      "Port": 57560,
+      "Name": "Application Port"
+    },
+    {
+      "Protocol": "UDP",
+      "Port": 57561,
+      "Name": "Steam Query Port"
+    }
+  ],
+  "_UpdateSourceType": "Multi",
+  "_DisplayImageSource": "steam:834910",
+  "_SteamServerAppID": "1006030",
+  "_SteamClientAppID": "834910",
+  "_WinExecutableName": "1006030\\ShooterGame\\Binaries\\Win64\\ShooterGameServer.exe",
+  "_LinuxExecutableName": "1006030/ShooterGame/Binaries/Linux/ShooterGameServer",
+  "_AppSettings": [],
+  "Meta_OS": 3,
+  "Meta_ConfigManifest": "atlasconfig.json",
+  "Meta_ConfigRoot": "atlas.kvp",
+  "Meta_DisplayImageSource": "steam:834910",
+  "App_RootDir": "./atlas/",
+  "App_BaseDirectory": "./atlas/1006030/",
+  "App_WorkingDir": "1006030/ShooterGame/Binaries/Linux",
+  "App_ExecutableWin": "1006030\\ShooterGame\\Binaries\\Win64\\ShooterGameServer.exe",
+  "App_ExecutableLinux": "1006030/ShooterGame/Binaries/Linux/ShooterGameServer",
+  "Meta_EndpointURIFormat": "steam://connect/{ip}/{GenericModule.App.ApplicationPort2}"
+}
