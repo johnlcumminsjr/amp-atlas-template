@@ -1,0 +1,1 @@
+# amp-atlas-template
